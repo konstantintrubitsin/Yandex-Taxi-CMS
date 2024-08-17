@@ -1,0 +1,344 @@
+/*PC*/
+@media (max-width: 1199px){
+    [class*="__container"] {
+        max-width: 970px;
+    }
+}
+/*Tablet*/
+@media (max-width: 991.98px){
+    [class*="__container"] {
+        max-width: 750px;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 767.98px){
+    [class*="__container"] {
+        max-width: none;
+    }
+}
+
+@media (max-width: 527.98px){
+    [class*="__container"] {
+        max-width: none;
+    }
+}
+
+@media (max-width: 1198.98px){
+    .menu__item {
+        color: #8B8B8B;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 5%;  
+    }
+    .item-work__title {
+        font-size: 16px;
+    }
+    .item-work__text {
+        font-size: 14px;
+    }
+
+    .but__item {
+        flex: 0 1 100%;
+        text-align: center;
+    }
+
+    .form-polit {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .form__button{
+        padding: 43px 0px 50px 0px ;
+    }
+}
+
+
+@media (max-width: 991.98px){
+    .menu__list {
+        flex-wrap: wrap;
+        gap: 18px;
+        padding: 0px 37px 0px 0px;
+    }
+    .menu__item {
+        line-height: 5px;
+        font-size: 12px;
+    }
+    .header__partners {
+        flex: 0 0 125px;
+        font-size: 12px;
+    }
+    .questionary__body {
+        padding: 120px 0px 105px 0px;
+    }
+
+    .block-text {
+        width: 100%;
+    }
+    .block-text__title {
+        font-size: 28px;
+        line-height: auto;
+        padding: 0px 0px 23px 0px;
+    }
+    .block-text__text {
+        font-family: Yandex-Light;
+        font-size: 16px;
+    }
+
+    .block-text__button {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .work__content { 
+        padding: 120px 0px 140px 0px;
+    }
+
+    .benefits__body {
+    padding: 65px 100px 82px 0px;
+    }
+
+    .benefits-text__title {
+    font-family: Yandex-Bold;
+    font-size: 30px;
+    padding: 0px 0px 73px 0px;
+    }
+
+    .benefits__items {
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    .item-benefits__title {
+    font-size: 16px;
+    }
+    .item-benefits__title img{
+    padding: 0px 10px;
+    }
+    .item-benefits__text {
+    font-family:Yandex-Light;
+    font-size: 14px;
+    padding: 10px 0px 53px 40px;
+    }
+
+    .app__body {
+        width: 50%;
+        padding: 65px 100px 56px 0px;
+    }
+
+    }
+
+@media (max-width: 767.98px){
+
+    .header__logo{
+        margin-right: 20px;
+    }
+    
+    .menu__list {
+        gap: 15px;
+        padding: 0px 20px 0px 0px;
+    }
+    .menu__item {
+       font-size: 12px;
+    }
+    .header__partners {
+        display: none;
+    }
+    .header__contacts {
+        flex: 0 0 100px;
+    }
+    
+    .header-contacts__link__phone {
+        font-size: 12px;
+    }
+    .header-contacts__link__text {
+        font-size: 10px;
+    }
+    .block-text__title {
+        font-size: 30px;
+        padding: 0px 0px 18px 0px;
+    }
+    .questionary__body {
+        padding: 80px 0px 80px 0px;
+    }
+
+    .questionary__container{
+        text-align: center;
+    }
+
+    .work__item {
+        flex: 0 1 30%;
+    }
+
+    .work__content { 
+        padding: 100px 0px 100px 0px;
+    }
+    .work-text__title {
+        text-align: center;
+        padding: 0px 0px 45px 0px;
+        font-size: 30px;
+    }
+    .work__items {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+    .item-work__title {
+        padding: 0px 0px 18px 0px;
+    }
+
+
+    .item-work__title h2{
+        font-size: 14px;
+    }
+
+    .item-work__text {
+        font-size: 12px;
+        padding: 0px 0px 10px 0px;
+    }
+
+    
+    .benefits__body {
+    padding: 65px 0px 82px 0px;
+    }
+
+    .benefits-text__title {
+    text-align: center;
+    font-family: Yandex-Bold;
+    font-size: 30px;
+    padding: 0px 0px 73px 0px;
+    }
+
+    .benefits__item {
+    text-align: center;
+    }
+    .item-benefits__title {
+    font-size: 16px;
+    }
+    .item-benefits__title img{
+    padding: 0px 10px;
+    }
+    .item-benefits__text {
+    font-family:Yandex-Light;
+    font-size: 14px;
+    padding: 10px 0px 53px 0px;
+    }
+
+    .app {
+        background-color: #F0F0F0;
+        margin:128px 0px 100px 0px;
+        position:relative
+    }
+
+    .app__body {
+        width: 100%;
+        padding: 65px 0px 56px 0px;
+    }
+
+    .app-text__title {
+        font-family: Yandex-Bold;
+        font-size: 30px;
+        padding: 0px 0px 36px 0px;
+    }
+
+    .app__img {
+        padding: 50px 0px 0px 0px;
+    }
+
+    .contacts__content {
+        padding: 0px 0px 100px 0px;
+    }
+    .contacts__title {
+        text-align: center;
+        padding: 0px 0px 56px 0px;
+    }
+    .contacts__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .contact__item {
+        flex: 0 1 50%;
+    }
+    .item-contacts__title {
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .item-contacts__title__last{
+        margin: 10px 0px 10px 0px;
+        text-align: center;
+    }
+    
+    .light{
+        font-size: 14px;
+        color:#8B8B8B;
+        margin: 0px 5px 0px 0px;
+    }
+    .item-contacts__title img{
+        padding: 0px 7px 0px 0px;
+    }
+    
+    .map{
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+    }
+
+    input{
+        width: 70%;
+    }
+
+    .bold {
+        padding: 0px 10px 0px 0px;
+    }
+
+    .rent__text {
+        font-family: Yandex-Regular;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 527.98px){
+    .menu__list {
+        display: none;
+    }
+    .menu__item {
+        display: none;
+    }
+    .header__partners {
+        flex: 0 0 125px;
+        font-size: 12px;
+    }
+    .header__contacts {
+        flex: 0 0 107px;
+    }
+    
+    .header-contacts__link__phone {
+        font-size: 12px;
+    }
+    .header-contacts__link__text {
+        font-size: 10px;
+    }
+
+    .work__content { 
+        padding: 50px 0px 50px 0px;
+    }
+
+    .work-text__title {
+        text-align: center;
+        padding: 0px 0px 45px 0px;
+    }
+    .work__items {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .item-work__title {
+        padding: 0px 0px 18px 0px;
+        font-family: Yandex-Bold;
+        font-size: 16px;
+    }
+    .item-work__text {
+        font-size: 14px;
+        padding: 0px 0px 10px 0px;
+    }
+}
